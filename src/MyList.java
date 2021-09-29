@@ -3,8 +3,9 @@ import java.util.Arrays;
 public class MyList<E> {
     private int size = 0;
     private static final int DEFAULT_CAPACITY = 10;
-    private Object elements[];
+    private Object [] elements;
 
+    //gán elements là 1 mảng mới kiểu dữ liệu Object với 10 phần tử
     public MyList() {
         elements = new Object[DEFAULT_CAPACITY];
     }
@@ -27,8 +28,4 @@ public class MyList<E> {
         }
         return (E) elements[i];
     }
-
-
-
-
 }
