@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+//E đại diện cho kiểu dữ liệu Genetic
 public class MyList<E> {
     private int size = 0;
     private static final int DEFAULT_CAPACITY = 10;
